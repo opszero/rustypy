@@ -1,3 +1,5 @@
+# rustypy
+
 rustypy is a template Rust Library for Python using [Pyo3](https://github.com/PyO3/pyo3).
 
 The project is a template that you can clone to get started building your own
