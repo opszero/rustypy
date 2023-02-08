@@ -11,6 +11,15 @@ Rust + Python library.
 
 ```
 brew install pyenv pyenv-virtualenv
+pip3 install maturin
+```
+
+# Create
+
+```
+mkdir project/
+maturin init
+✔ 🤷 What kind of bindings to use? · pyo3
 ```
 
 # Build
