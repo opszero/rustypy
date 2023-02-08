@@ -23,10 +23,6 @@ make build
 
 # Publish
 
-- [ ] Python 3.9
-- [ ] Python 3.10
-- [ ] Python 3.11
-
 # Use
 
 ```python
