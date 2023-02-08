@@ -2,8 +2,11 @@
 
 rustypy is a template Rust Library for Python using [Pyo3](https://github.com/PyO3/pyo3).
 
-The project is a template that you can clone to get started building your own
-Rust + Python library.
+The project is a template that you can clone or generate using the PyO2 product. This project
+exists as a demonstration of a Ruby library that is used withing AWS Lambda and Kubernetes:
+
+- [aws-lambda-python](https://github.com/opszero/template-aws-lambda-python)
+- [tiphyspy](https://github.com/opszero/tiphyspy)
 
 # Dependencies
 
