@@ -31,9 +31,11 @@ maturin init
 make build
 ```
 
-- [ ] Github Actions Build
+- Built for Mac, Linux and Windows on Push
 
 # Publish
+
+- Published on Release Tag
 
 # Use
 
