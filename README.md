@@ -1,6 +1,6 @@
-# rustypy
+# opszero-rustypy
 
-rustypy is a template Rust Library for Python using [Pyo3](https://github.com/PyO3/pyo3).
+opszero-rustypy is a template Rust Library for Python using [Pyo3](https://github.com/PyO3/pyo3).
 
 The project is a template that you can clone or generate using the PyO2 product. This project
 exists as a demonstration of a Ruby library that is used withing AWS Lambda and Kubernetes:
@@ -28,7 +28,10 @@ maturin init
 # Build
 
 ```
-make build
+pyenv virtualenv opszero-rustypy
+pyenv activate opszero-rustypy
+cargo update
+./build.sh
 ```
 
 - Built for Mac, Linux and Windows on Push
@@ -40,7 +43,7 @@ make build
 # Use
 
 ```python
->>> import rustypy
->>> rustypy.sum_as_string(1,2)
+>>> import opszero_rustypy
+>>> opszero_rustypy.sum_as_string(1,2)
 '3'
 ```
