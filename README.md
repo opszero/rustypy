@@ -1,8 +1,8 @@
 # opszero-rustypy
 
-opszero-rustypy is a template Rust Library for Python using [Pyo3](https://github.com/PyO3/pyo3).
+opszero-rustypy is a template Rust Library for Python using [PyO3](https://github.com/PyO3/pyo3).
 
-The project is a template that you can clone or generate using the PyO2 product. This project
+The project is a template that you can clone or generate using the PyO3 product. This project
 exists as a demonstration of a Ruby library that is used withing AWS Lambda and Kubernetes:
 
 - [aws-lambda-python](https://github.com/opszero/template-aws-lambda-python)
