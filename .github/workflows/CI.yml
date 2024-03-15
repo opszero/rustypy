@@ -16,7 +16,7 @@ jobs:
   linux:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: PyO3/maturin-action@v1
       with:
         manylinux: auto
@@ -31,7 +31,7 @@ jobs:
   windows:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: PyO3/maturin-action@v1
       with:
         command: build
@@ -45,7 +45,7 @@ jobs:
   macos:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: PyO3/maturin-action@v1
       with:
         command: build
